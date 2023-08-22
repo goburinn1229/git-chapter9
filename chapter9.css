@@ -1,0 +1,144 @@
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #FF9A4B
+}
+
+.main{
+    width: 100%;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+.mainbox{
+    width: 960px;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.box1{
+    width: 300px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+
+}
+.box2{
+    width: 300px;
+    background-color: #EEEEEE;
+    margin: 50px 30px 50px 30px;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.box3{
+    width: 300px;
+    background-color: #EEEEEE;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+
+}
+.img1{
+    height: 150px;
+    background-image: url(chapter9!/flow01.png);
+    background-size: 100% 150px;
+
+}
+.img2{
+    height: 150px;
+    background-image: url(chapter9!/flow02.png);
+    background-size: 100% 150px;
+
+    
+}
+.img3{
+    height: 150px;
+    background-image: url(chapter9!/flow03.png);
+    background-size: 100% 150px;
+}
+.step1{
+    width: 40px;
+    height: 20px;
+    background-color: #FF9A4B;
+    color: #FFFFFF;
+    margin-right: auto
+}
+.step2{
+    width: 40px;
+    height: 20px;
+    background-color: #FF9A4B;
+    color: #FFFFFF;
+}
+.step3{
+    width: 40px;
+    height: 20px;
+    background-color: #FF9A4B;
+    color: #FFFFFF;
+}
+.h3{
+    margin: 15px 0px 5px 0px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #AAAAAA
+
+}
+
+.social i{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+header{
+    width: 100%;
+    height: 50px
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.mainbox{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.box1{
+    width: 90%;
+    margin: 50px auto 20px auto;
+
+}
+
+.box2{
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box3{
+    width: 90%;
+    margin: 20px auto 50px auto;
+}
+
+.img1{
+    height: 150px;
+}
+
+.img2{
+    height: 150px;
+}
+
+.img3{
+    height: 150px
+}
+}
